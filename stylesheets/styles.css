@@ -18,6 +18,10 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
+section p {
+  font-size:18px;
+}
+
 h1, h2, h3 {
   line-height:1.1;
 }
@@ -106,7 +110,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:200px;
   float:left;
   position:fixed;
 }
@@ -194,7 +198,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:570px;
   float:right;
   padding-bottom:50px;
 }
@@ -300,8 +304,7 @@ footer {
       }
       section p { margin-top: 10px; }
       section h1 { margin-bottom: 15px; }
-      section h2 { margin-bottom: 10px; }
-      section h2 { margin-bottom: 10px; }
+      section h2 { margin-bottom: 15px; }
       footer { bottom: 20px; }
       footer p { margin-bottom: 5px; }
       .half-width {
