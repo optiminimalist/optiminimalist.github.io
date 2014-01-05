@@ -6,8 +6,16 @@ title: projects
 <h1>{{page.title}}</h1>
 <hr/>
 
-Add ROT13
-<h2><a href="/moving-data"><i class="fa fa-external-link fa-1"></i> Location, Location, Location...</a><br><small>Adam Barker, Michael Luckeneder</h2>
+
+<h2><a href="/rot-13"><i class="fa fa-code fa-1"></i> ROT 13</a></h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<h2><a href="/moving-data"><i class="fa fa-file-o fa-1"></i> Location, Location, Location...</a><br><small>Adam Barker, Michael Luckeneder</h2>
 <p><em>Abstract: </em><br>
     When orchestrating highly distributed and data-intensive Web service workflows the geographical placement of the orchestration engine can greatly affect the overall performance of a workflow. Orchestration engines are typically run from within an organisations' network, and may have to transfer data across long geographical distances, which in turn increases execution time and degrades the overall performance of a workflow. In this paper we present CloudForecast: a Web service framework and analysis tool which given a workflow specification, computes the optimal Amazon EC2 Cloud region to automatically deploy the orchestration engine and execute the workflow. We use geographical distance of the workflow, network latency and HTTP round-trip time between Amazon Cloud regions and the workflow nodes to find a ranking of Cloud regions. This combined set of simple metrics effectively predicts where the workflow orchestration engine should be deployed in order to reduce overall execution time.
 We evaluate our approach by executing randomly generated data-intensive workflows deployed on the PlanetLab platform in order to rank Amazon EC2 Cloud regions. Our experimental results show that our proposed optimisation strategy, depending on the particular workflow, can speed up execution time on average by 82.25% compared to local execution. We also show that the standard deviation of execution time is reduced by an average of almost 65% using the optimisation strategy.
