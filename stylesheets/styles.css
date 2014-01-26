@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  padding:50px;
+  padding:25px 50px 50px 50px;
   font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
@@ -113,6 +113,7 @@ header {
   width:200px;
   float:left;
   position:fixed;
+  z-index:9999999;
 }
 
 header ul {
@@ -292,7 +293,7 @@ footer {
   }
 }
 
-      header { zoom: 1.2; }
+      /*header { zoom: 1.2; }*/
       header h1 { margin-bottom: 5px; }
       header h1 a { color: #222; font-weight: bold; }
       header h3 { margin-top: 20px; margin-bottom: 5px; }
