@@ -1,0 +1,13 @@
+.container {
+  padding-top: 100px;
+}
+.yelplink:hover {
+  text-decoration: none;
+}
+
+.yelplink {
+  color:#c41200;
+}
+.lead {
+  font-size:18px;
+}
