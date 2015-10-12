@@ -1,0 +1,21 @@
+name: Michael Luckeneder
+description: Software Engineer
+
+markdown: redcarpet
+highlighter: pygments
+
+baseurl: /
+google_analytics: 'UA-40155093-2'
+
+url:            'http://michael.luckeneder.net'
+author:         'Michael Luckeneder'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
