@@ -1,29 +1,21 @@
-# Analytics and webmaster tools stuff goes here
-google_analytics: 12345
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+name: Michael Luckeneder
+description: Software Engineer
 
+markdown: redcarpet
+highlighter: pygments
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Los_Angeles
-future:      true
-pygments:    true
-markdown:    kramdown
+baseurl: /
+google_analytics: 'UA-40155093-2'
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+url:            'http://michael.luckeneder.net'
+author:         'Michael Luckeneder'
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
+permalink:       /:year/:title/
 
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
